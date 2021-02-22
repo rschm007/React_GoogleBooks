@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "react_googlebooks",
   "version": "1.0.0",
-  "description": "Mern Demo",
+  "description": "react_googlebooks",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -15,17 +15,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9.8.6",
     "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7",
-    "postcss": "^7.0.35"
+    "nodemon": "^1.18.7"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
-    "mongoose": "^5.11.17",
-    "react-router-dom": "^5.2.0"
+    "mongoose": "^5.11.17"
   }
 }
